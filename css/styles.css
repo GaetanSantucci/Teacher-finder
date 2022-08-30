@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #011020;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container { 
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background-color: rgb(185, 215, 241);
+  width: 80%;
+  height: 92vh;
+  margin: 2%;
+}
+
+.divSelector {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.selector {
+  width: 45%;
+  margin: 1%;
+  padding: 0.5em;
+  background-color: 'lightgray';
+  color: #1771da;
+  font-size: 1em;
+  border: 1px solid #bbb;
+  outline: none;
+}
+h1 {
+  margin: 0.5em;
+  font-size: 3em;
+  border-bottom: 1px solid #bbb;
+}
+
+.section{
+  width: 80%;
+  margin: 1em;
+  padding: 1em;
+}
+
+.options{
+  color: #1771da;
+  text-align: baseline;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 0.2em;
+  padding: 1em;
+  background-color: #0052a9;
+  border-radius: 0.4em;
+  color: white;
+
+}
+
+.row p {
+  color: white;
+}
+
+.tag {
+  text-align: center;
+  margin-left: 2%;
+  background-color: #1771da;
+  color: white;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+.spec {
+  text-align: center;
+  margin-left: 2%;
+  background-color: #17da89;
+  color: white;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+/* Ajoute tous les styles dont tu as besoin ici */
+/* 
+  codes couleurs :
+  - bleu des items de listes : #0052a9
+  - bleu des tags : #1771da
+  - gris des select: #eee
+  - gris des bordures: #bbb
+*/
